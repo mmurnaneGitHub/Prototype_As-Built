@@ -1,0 +1,25 @@
+Print Notes
+
+<dyn type="document" property="title" emptyStr = " "/>
+
+1. Create template from existing 'Letter ANSI A Landscape.mxd' in \\arcgisprod01\c$\ArcGIS\Server10.1\Server\Templates\ExportWebMapTemplates
+2. Add template to \\arcgisprod01\c$\ArcGIS\Server10.1\Server\Templates\ExportWebMapTemplates
+3. Restart Print Service to see new template.
+
+Test Site: https://wspdsmap.cityoftacoma.org/website/test/SideSewerDrawings/
+
+Works (WAB 2.7):
+https://gis.cityoftacoma.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task
+https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task
+
+https://arcgisprod01.tacoma.lcl:6443/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task
+C:\ArcGIS\Server10.1\Server\Templates\ExportWebMapTemplates
+\\arcgisprod01\c$\ArcGIS\Server10.1\Server\Templates\ExportWebMapTemplates 
+
+Doesn't Work:
+http://geobase-dbnewer/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task (exists, but error in WAB configure - invalid)
+https://geobase-dbnewer/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task
+https://wspdsmap.cityoftacoma.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task
+
+Staff DART: 
+http://esgis01/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task

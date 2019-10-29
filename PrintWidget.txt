@@ -1,0 +1,24 @@
+PRINT WIDGET NOTES
+
+* Panel default values: \\geobase-dbnewer\c$\website\test\SideSewerDrawings\configs\Print\config_widgets_Print_Widget_21.json
+
+* Panel labels: \\geobase-dbnewer\c$\website\test\SideSewerDrawings\widgets\Print\nls\strings.js
+
+* Using CustomTextElements and Web Application Builder Print Widget: 
+  In aaSideSewerTemplate101.mxd:
+  1. Choose Text from Insert menu.
+  2. Open the Properties page of the text element.
+  3. Switch to Size and Position tab.
+  4. Enter a name in Element Name.
+  5. Click OK button.
+  When you choose a layout with CustomTextElements on the Print widget, they appear in the Advanced drop-down allowing users to enter new values for those CustomTextElements. 
+  Details:  https://www.esri.com/arcgis-blog/products/arcgis-enterprise/uncategorized/printing-popups-from-web-application/?rmedium=redirect&rsource=blogs.esri.com%2Fesri%2Farcgis%2F2016%2F06%2F20%2Fprinting-popups-from-web-application
+
+
+Other ideas ...
+* Limit templates shown: https://community.esri.com/thread/190691-wab-print-widget & https://community.esri.com/message/668720-wab-printwidget-layout-dropdown-list-how-to-get-rid-of-some-items
+* Print scale limit: https://community.esri.com/message/584684
+* Scalebar units: https://community.esri.com/message/541457 & https://community.esri.com/thread/163352
+* How to add custom text elements: https://community.esri.com/thread/177897
+
+
